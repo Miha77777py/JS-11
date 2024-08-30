@@ -1,0 +1,12 @@
+.main__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operations {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 5px;
+}

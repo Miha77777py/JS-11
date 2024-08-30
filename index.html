@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>JS-5</title>
+</head>
+<body>
+    <ol class="main__list">
+        <li class="main__item">
+            <ul class="operations">
+                <li class="operations__item">
+                    <input type="text" class="deposit_ammount" placeholder="Сума поповнення">
+                    <button class="deposit">Поповнити рахунок</button>
+                </li>
+                <li class="operations__item">
+                    <input type="text" class="withdraw_ammount" placeholder="Сума зняття">
+                    <button class="withdraw">Зняти готівку</button>
+                </li>
+            </ul>
+        </li>
+        <li class="main__item">
+            <input type="text" class="temperature" placeholder="Введіть температуру">
+            <button class="btn_checkTemperature">Перевірити</button>
+        </li>
+        <li class="main__item">
+            <input type="email" class="email" placeholder="Пошта">
+            <input type="password" class="password" placeholder="Пароль">
+            <button class="btn_checkUser">Ввійти в аккаунт</button>
+        </li>
+        <li class="main__item">
+            <h2 class="title"></h2>
+            <h2 class="director"></h2>
+            <h2 class="year"></h2>
+            <h2 class="rating"></h2>
+        </li>
+    </ol>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
